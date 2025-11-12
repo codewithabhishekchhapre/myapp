@@ -3,7 +3,6 @@ import React, { useState } from "react";
 const CreateProductCard = () => {
 
      var [formData , setformData]=useState({});
-
      const [productData,setproductData]=useState([ {
       id: 1,
       name: "Wireless Headphones",
@@ -35,11 +34,10 @@ const CreateProductCard = () => {
         "https://images.unsplash.com/photo-1606220838315-056192d5e927?auto=format&fit=crop&w=600&q=80",
     },])
 
+    // hello
    
   function inputHandler(e){
      const {value, name}=e.target;
-
-     // setformData({[name]:value})
      setformData((predata)=>({...predata,[name]:value}))
 
      
