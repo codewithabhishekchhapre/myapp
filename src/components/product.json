@@ -1,0 +1,21 @@
+[
+     {
+    "name": "boat 230ns",
+    "price": 1700,
+    "oldprice": 2200,
+    "discount": 14,
+    "rating": 4.8,
+    "color": 4,
+    "tag": "30 hours playback"
+     },
+     {
+    "name": "boat 240ns",
+     "price": 2000,
+     "oldprice": 2700,
+     "discount": 15,
+     "rating": 4.6,
+     "color": 3,
+     "tag": "35 hours playback"
+     }
+    
+]
